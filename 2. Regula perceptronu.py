@@ -33,6 +33,7 @@ def neuron(inputs, weights):
         y = 1
     else:
         y = -1
+
     return y
 def plot_dots(data):
     for i in data:
